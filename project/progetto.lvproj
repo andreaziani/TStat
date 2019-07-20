@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="type" Type="Folder">
 			<Item Name="MessageCluster.ctl" Type="VI" URL="../MessageCluster.ctl"/>
+			<Item Name="Messages.ctl" Type="VI" URL="../Messages.ctl"/>
 			<Item Name="TimeCluster.ctl" Type="VI" URL="../TimeCluster.ctl"/>
 		</Item>
 		<Item Name="CalculateTime.vi" Type="VI" URL="../CalculateTime.vi"/>
@@ -28,7 +29,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 			</Item>
-			<Item Name="Messages.ctl" Type="VI" URL="../../../../../Desktop/StateMachineTest/2/Messages.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
